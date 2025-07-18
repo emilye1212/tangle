@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web Applications and Technologies</title>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+
+    </head>
+
+<body>
+
+    <header>
+        <h1>Paul Doney C123457</h1>
+    </header>
+    <section id="container">
+        <h1>Forms</h1>
+        <?php
+        ?>
+    </section>
+    <footer>
+        <small> <a href="..html./WATc3622379/watIndex.html">Home</a></small>
+    </footer>
+</body>
+</html>
+
+body {
+
+font-family: verdana, helvetica, arial, sans-serif;
+
+font-size: 1em;

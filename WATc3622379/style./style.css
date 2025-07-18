@@ -1,0 +1,35 @@
+body, h1, h2, p {
+    font-family: Arial;
+}
+
+
+.goWeight{
+    font-weight: 800;
+}
+
+
+.goGreen{
+    color:green;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.wideWord{
+    letter-spacing:10px;
+    color: purple;
+}
+
+.box {
+    color: purple;
+    width: 350px;
+    border: 15px solid green;
+    padding: none;
+    margin: 20px;
+    display: inline-block;
+}
+
+.list {    
+    list-style-type: none;
+}
+  
