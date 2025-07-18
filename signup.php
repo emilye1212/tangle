@@ -230,7 +230,7 @@ if (isset($_POST['clear'])) {
 </div>
 
 <div class="back-button">
-    <a href="home.php">
+    <a href="index.php">
         <img src="left-arrow.png" alt="Back" style="width: 30px; height: auto;">
     </a>
 </div>
