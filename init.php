@@ -7,10 +7,10 @@ if(session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-$hostname = 'stu-db.aet.leedsbeckett.ac.uk';
-$username = 'c3622379'; 
-$password = 'MyDB02013522';
-$databaseName = 'c3622379';
+$hostname = 'tangleserver.mysql.database.azure.com';
+$username = 'adminuser@tangleserver'; 
+$password = 'Password12345!';
+$databaseName = 'tangledatabase';
 
 $connection = mysqli_connect($hostname, $username, $password, $databaseName);
 
