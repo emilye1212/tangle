@@ -7,11 +7,6 @@ if(session_status() == PHP_SESSION_NONE) {
 }
 include 'init.php';
 
-$res = mysqli_query($connection, "SHOW TABLES");
-echo '<pre>Tables: '. print_r(mysqli_fetch_all($res), true) . '</pre>';
-exit;
-
-
 if(isset($_POST['submit'])){
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
