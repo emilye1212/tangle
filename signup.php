@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
     } else {
 
 
-        $query = "INSERT INTO Credentials (firstName, lastName, emailAd, userPassword) 
+        $query = "INSERT INTO `Credentials` (firstName, lastName, emailAd, userPassword) 
                   VALUES ('$firstName', '$lastName', '$emailAd', '$userPassword')";
 
         if (mysqli_query($connection, $query)) {
