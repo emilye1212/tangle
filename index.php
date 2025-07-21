@@ -147,13 +147,13 @@ error_reporting(E_ALL);
             color: #d98d6c;
             padding: 20px;
             border-radius: 30px;
-            margin-top: 100px !important;
-            margin-bottom: 100px !important;
+            margin-top: 30px !important;
+            margin-bottom: 30px !important;
             text-align: center;
             width: 900px;
             margin: 20px auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            padding-bottom: 10px;
+            padding-bottom: 30px;
         }
         
         .box h2 {
@@ -183,7 +183,8 @@ error_reporting(E_ALL);
 
         .boxa {
             width: 200px !important;
-            height: 200px !important;
+            height: 300px !important;
+
         }
 
         .flex-container {
@@ -252,13 +253,15 @@ error_reporting(E_ALL);
         .boxandroid,
         .androidtext {
             display: inline-block;
-            vertical-align: middle; 
+            vertical-align: middle;
+            padding-top: 0; 
         }
 
         .boxtext {
             color: #de904b;
             font-family: 'Capriola', sans-serif;
             font-size: 20px;
+            padding-bottom: 0px;
         }
 
     </style>
@@ -292,8 +295,8 @@ error_reporting(E_ALL);
     <br> <div class = "boxtext" >Boost your productivity with Tangle’s playful Pomodoro-style approach to studying. </h1></br>
     <br> Track your sessions, play mini-games during breaks, and stay motivated. </div>
     <br>
-    <img class="boxa" src="gameboy.png" alt="Tangle Logo">
-    <br>
+    <img class="boxa" src="cartoontree.png.png" alt="Tangle Logo">
+    <br></br>
     <img class="boxandroid" src="androidlogo.png" alt="Android Logo">
     <div class="androidtext">Available on Android</div>
     </div>
