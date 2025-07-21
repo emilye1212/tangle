@@ -8,7 +8,7 @@ if(session_status() == PHP_SESSION_NONE) {
 }
 
 $hostname = 'tangleserver.mysql.database.azure.com';
-$username = 'adminuser@tangleserver'; 
+$username = 'adminuser'; 
 $password = 'Password12345!';
 $databaseName = 'tangledatabase';
 
