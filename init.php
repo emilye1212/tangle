@@ -12,6 +12,8 @@ $username = 'adminuser@tangleserver';
 $password = 'Password12345!';
 $databaseName = 'tangledatabase';
 
+var_dump([$hostname, $username, $password, $databaseName]);
+
 $connection = mysqli_connect($hostname, $username, $password, $databaseName);
 
 if (!$connection) {
