@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
 
-    $query = "SELECT * FROM Credentials WHERE emailAd = '$email' AND userPassword = '$password'";
+    $query = "SELECT * FROM credentials WHERE emailAd = '$email' AND userPassword = '$password'";
     $result = mysqli_query($connection, $query);
 
     if ($result) {
